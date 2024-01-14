@@ -41,7 +41,7 @@ const Home = (props) => {
         <>
             {quickview.id ? <QuickView render={render} setRender={setRender} quickview={quickview} setQuickview={setQuickview} /> : <></>}
 
-            <div className="relative ">
+            <div className="relative mt-10">
                 <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
                     <h2 className="sr-only">Products</h2>
 

@@ -38,7 +38,7 @@ const Checkout = () => {
   }
   return (
     <>
-      <div class="grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32">
+      <div class="mt-10 grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32">
         <div class="px-4 pt-8">
           <p class="text-xl font-medium">Order Summary</p>
           <p class="text-gray-400">Check your items. And select a suitable shipping method.</p>
