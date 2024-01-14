@@ -12,6 +12,7 @@ const QuickView = (props) => {
             setRender(!render)
             const updatedStringified = JSON.stringify(snapshot);
             localStorage.setItem('cart', updatedStringified);
+            setQuickview({})
         } catch (error) {
             console.error('Error adding to cart:', error);
         }
@@ -26,6 +27,7 @@ const QuickView = (props) => {
             setRender(!render)
             const updatedStringified = JSON.stringify(snapshot);
             localStorage.setItem('liked', updatedStringified);
+            setQuickview({})
         } catch (error) {
             console.error('Error adding to cart:', error);
         }

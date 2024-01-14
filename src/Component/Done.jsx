@@ -24,7 +24,6 @@ const Done = (props) => {
         // Clear the local storage only if there are items in the cart
         if (cartItems.length > 0) {
             localStorage.setItem('cart', JSON.stringify([]));
-            setRender(!render)
         }
     }, [cartItems]);
 
