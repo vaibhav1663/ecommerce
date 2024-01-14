@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = (props) => {
     const {cart, setCart, liked, setLiked} = props;
     return (
-        <nav style={{position: 'sticky', background: 'white', top: 0}} className="z-10 shadow-sm bg-light">
+        <nav style={{position: 'fixed',width: '100vw', background: 'white', top: 0}} className="z-10 shadow-sm bg-light">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <Link to={'/'} className='text-2xl font-medium text-gray-900'>
